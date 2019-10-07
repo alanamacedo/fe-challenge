@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bitter;
+    font-size: 14px;
+}
+
+html, body {
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+.bus-container{
+  width: 40vh;
+  height: 29vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.specific-bus {
+    width: 40vh;
+    height: 9vh;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.bus-line{
+    background-color: #fff;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+}
