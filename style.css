@@ -1,6 +1,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
     display: flex;
     align-items: center;
@@ -17,6 +18,10 @@ div {
     display: block;
 }
 
+.iOS{
+  width: 375px;
+  height: 667px;
+}
 .bus-container{
   width: 40vh;
   height: 29vh;
