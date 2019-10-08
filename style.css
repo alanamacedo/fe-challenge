@@ -23,7 +23,9 @@ div {
   height: 667px;
   overflow: scroll;
   display: block;
-  width: 100%
+}
+.status-bar{
+  background-color: #5E3BC1;
 }
 .bus-container{
   width: 100%;
@@ -33,18 +35,17 @@ div {
 
 .specific-bus {
     width: 40vh;
-    height: 9vh;
     display: inline-block;
-    width: 25%;
-    padding 20px;
+    width: 100%;
+    padding: 20px;
     position: relative;
     border-bottom: 1px solid #eee;
     background-color: #fff;
     z-index: 0;
 }
-
 .specific-bus-details{
   float: right;
+
 }
 
 .eta{
