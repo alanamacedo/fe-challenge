@@ -43,6 +43,13 @@ div {
     z-index: 0;
 }
 
+.specific-bus-details{
+  float: right;
+}
+
+.eta{
+  float: right;
+}
 .bus-line{
     background-color: #fff;
     border-bottom-width: thin;
