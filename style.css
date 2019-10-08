@@ -24,17 +24,18 @@ div {
   width: 375px;
   height:667px;
   display: block;
-  overflow-y: scroll;
+
 }
 
 
 .status-bar{
   background-color: #5E3BC1;
   z-index: 2;
+  padding-left: 2px;
 }
 
 .search{
-  padding: 8px;
+  padding: 6px;
 
 }
 
@@ -56,7 +57,7 @@ div {
   background-color: #866CD1;
   opacity: 50%;
   margin-bottom: 4px;
-  padding: 25px;
+  padding: 10px;
 }
 
 h1{
@@ -106,8 +107,10 @@ p {
 
 .bus-container{
   width: 100%;
+  height: 268px;
+
   position: relative;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .specific-bus {
@@ -148,6 +151,7 @@ a {
   display: inline-block;
   margin-top: 12px;
   margin-left:8px;
+
 }
 
 .eta{
