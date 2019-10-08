@@ -12,7 +12,8 @@ body {
 }
 
 html, body {
-    height: 100%;
+    height: 676px;
+
 }
 
 div {
@@ -21,18 +22,88 @@ div {
 
 .iOS{
   width: 375px;
-  height: 667px;
-  overflow: scroll;
+  height:667px;
   display: block;
+  overflow-y: scroll;
 }
+
+
 .status-bar{
   background-color: #5E3BC1;
+  z-index: 2;
+}
+
+.search{
+  padding: 8px;
+
+}
+
+.dollar-bills{
+  float: right;
+  padding-left: 5px;
+}
+
+.bookmark-black-shape{
+  float: right;
+}
+
+.real-time-indicator{
+  padding-bottom: 8px;
 }
 .bus-stop-name{
-  background-color: #5E3BC1;
+  font-size: 18px;
+  color: white;
+  background-color: #866CD1;
   opacity: 50%;
-  padding: 20px;
+  margin-bottom: 4px;
+  padding: 25px;
 }
+
+h1{
+  display: inline-block;
+  color:: #fff;
+}
+
+h2{
+    font-size: 14px;
+    display: inline-block;
+    color: grey;
+
+}
+
+h3 {
+    text-align: right;
+    font-size: 14px;
+    color: #866CD1;
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom:4px;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+
+h5 {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    padding-bottom:4px;
+}
+
+
+p {
+    text-align: right;
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+
 .bus-container{
   width: 100%;
   position: relative;
@@ -40,26 +111,70 @@ div {
 }
 
 .specific-bus {
-    width: 40vh;
-    display: inline-block;
     width: 100%;
-    padding: 20px;
-    position: relative;
+    float: right;
+    display: inline-block;
+    padding: 4px;
     border-bottom: 1px solid #eee;
     background-color: #fff;
     z-index: 0;
 }
-.specific-bus-details{
-  float: right;
+
+.route {
+    padding-bottom: 0;
+    margin: 0;
+    float:left;
+}
+
+a {
 
 }
 
-.eta{
-  float: right;
+.arrow{
+    display: inline;
+    margin-left: 2px;
+    padding:8px 0 0 14px;
 }
-.bus-line{
+
+.bus-lines{
     background-color: #fff;
     border-bottom-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #000000;
+
+}
+
+.specific-bus-details{
+  display: inline-block;
+  margin-top: 12px;
+  margin-left:8px;
+}
+
+.eta{
+  display:inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
+
+}
+
+.left {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.Eastbound{
+  color: #007AFF;
+}
+
+.Northbound{
+  color: #FF9500;
+}
+
+.Southbound{
+  color: #4C9F5A;
+}
+
+.Reroute{
+  color: #F05555;
+  opacity: 0.8;
 }
