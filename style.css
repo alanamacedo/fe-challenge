@@ -82,6 +82,7 @@ h3 {
     padding-bottom:4px;
     position: relative;
     bottom: 2px;
+
 }
 
 h4 {
@@ -163,11 +164,13 @@ a {
   display: inline-block;
   padding-top: 12px;
   padding-left:8px;
+  min-width: 200px;
 
 }
 
 .eta{
-  display:inline-block;
+  display: inline-block;
+
   padding-top: 10px;
 
 
