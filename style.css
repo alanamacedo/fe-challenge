@@ -53,7 +53,6 @@ div {
   padding-top: 10px;
   position: relative;
   left: 14px;
-
 }
 
 .bookmark{
@@ -142,13 +141,13 @@ p {
 }
 
 .specific-bus {
-    width: 100%;
-    float: right;
-    display: inline-block;
     padding: 4px;
     border-bottom: 1px solid #eee;
     background-color: #fff;
     z-index: 0;
+    display: flex;
+    flex-flow: row;
+
 }
 
 .route {
@@ -201,14 +200,7 @@ a {
 
 }
 
-.left {
-    margin-top: 4px;
-    display: flex;
-    flex-flow: row;
-
-
-}
-
+*
 .Eastbound{
   color: #007AFF;
 }
