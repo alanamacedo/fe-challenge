@@ -47,13 +47,17 @@ div {
 
 }
 
-.dollar-bill{
+.dollar-bills{
   float: right;
   padding-right: 6px;
+  padding-top: 10px;
+  position: relative;
+  left: 14px;
 
 }
 
 .bookmark{
+  padding-top: 10px;
   float: right;
   padding-right: 10px;
 }
@@ -102,6 +106,9 @@ h4 {
   display:flex;
   justify-content: center;
   margin-top: 16px;
+  float: left;
+  width: 70%;
+  padding-left: 113px;
 
 }
 
