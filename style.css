@@ -47,18 +47,14 @@ div {
 
 }
 
-.dollar-bills{
+.dollar-bill{
   float: right;
-  padding-top: 12px;
   padding-right: 6px;
-
-
 
 }
 
-.bookmark-black-shape{
+.bookmark{
   float: right;
-  padding-top: 12px;
   padding-right: 10px;
 }
 
@@ -103,10 +99,9 @@ h4 {
   font-size: 17px;
   font-weight: bold;
   color: #fff;
-  position: absolute;
-  width: 50%;
+  display:flex;
+  justify-content: center;
   margin-top: 16px;
-  padding-right: 100px;
 
 }
 
