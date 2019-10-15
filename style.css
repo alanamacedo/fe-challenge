@@ -13,7 +13,6 @@ body {
 
 html, body {
     height: 676px;
-
 }
 
 div {
@@ -24,9 +23,7 @@ div {
   width: 375px;
   height:667px;
   display: block;
-
 }
-
 
 .nav{
   background-color: #5E3BC1;
@@ -35,16 +32,13 @@ div {
   height: 110px;
 }
 
-.status-bar-image{
+.status-bar{
   padding-left: 4px;
-
 }
 
-.search{
+.search-bar{
   padding-top: 10px;
   padding-left: 6px;
-
-
 }
 
 .dollar-bills{
@@ -64,7 +58,7 @@ div {
 .real-time-indicator{
   padding-bottom: 15px;
 }
-.bus-stop-name{
+.bus-stop{
   font-size: 18px;
   color: white;
   background-color: #866CD1;
@@ -140,7 +134,7 @@ p {
   overflow-y: scroll;
 }
 
-.specific-bus {
+.bus-number {
     padding: 4px;
     border-bottom: 1px solid #eee;
     background-color: #fff;
@@ -174,13 +168,13 @@ a {
 
 .bus-lines{
     background-color: #fff;
-    border-bottom-width: thin;
-    border-bottom-style: solid;
+    border-bottom-width: none;
     border-bottom-color: #000000;
+    border-bottom-style: solid;
 
 }
 
-.specific-bus-details{
+.bus-details{
   display: inline-block;
   padding-top: 12px;
   padding-left:8px;
@@ -194,10 +188,6 @@ a {
   padding-top: 10px;
   margin-right: 10px;
   width: 75px;
-
-
-
-
 }
 
 *
