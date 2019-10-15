@@ -58,6 +58,7 @@ div {
 .real-time-indicator{
   padding-bottom: 15px;
 }
+
 .bus-stop{
   font-size: 18px;
   color: white;
@@ -89,7 +90,6 @@ h3 {
     padding-bottom:4px;
     position: relative;
     bottom: 7px;
-
 }
 
 h4 {
@@ -102,9 +102,7 @@ h4 {
   float: left;
   width: 70%;
   padding-left: 113px;
-
 }
-
 
 h5 {
     display: block;
@@ -115,7 +113,6 @@ h5 {
     position: relative;
     bottom: 5px;
 }
-
 
 p {
     text-align: right;
@@ -129,7 +126,6 @@ p {
 .bus-container{
   width: 100%;
   height: 268px;
-
   position: relative;
   overflow-y: scroll;
 }
@@ -141,19 +137,12 @@ p {
     z-index: 0;
     display: flex;
     flex-flow: row;
-
 }
 
 .route {
     padding-bottom: 0;
     margin: 0;
     float:left;
-
-
-}
-
-a {
-
 }
 
 .arrow{
@@ -162,8 +151,6 @@ a {
     padding:8px 0 0 14px;
     position: relative;
     margin-top: 10px;
-
-
 }
 
 .bus-lines{
