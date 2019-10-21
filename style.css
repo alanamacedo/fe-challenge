@@ -64,7 +64,6 @@ div {
   color: white;
   background-color: #866CD1;
   opacity: 50%;
-  margin-bottom: 4px;
   padding: 10px;
   height: 100%;
 
@@ -139,6 +138,7 @@ p {
     z-index: 0;
     display: flex;
     flex-flow: row;
+    min-height: 68px;
 }
 
 
