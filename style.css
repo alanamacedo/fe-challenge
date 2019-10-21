@@ -144,7 +144,89 @@ p {
     margin: 0;
     float:left;
 }
+.circle64 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #007AFF;
+}
 
+.circle124 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #007AFF;
+}
+
+.circle151 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #FF9500;
+}
+
+.circlej14 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #4C9F5A;
+}
+
+.circle6x {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #D88A8A;
+}
+
+.circle4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #979797;
+}
+
+.circle20 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #979797;
+}
 .arrow{
     display: inline;
     margin-left: 2px;
