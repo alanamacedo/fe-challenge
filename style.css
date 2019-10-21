@@ -66,6 +66,8 @@ div {
   opacity: 50%;
   margin-bottom: 4px;
   padding: 10px;
+  height: 100%;
+
 }
 
 h1{
@@ -139,11 +141,7 @@ p {
     flex-flow: row;
 }
 
-.route {
-    padding-bottom: 0;
-    margin: 0;
-    float:left;
-}
+
 .circle64 {
   width: 50px;
   height: 50px;
@@ -154,6 +152,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #007AFF;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circle124 {
@@ -166,6 +165,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #007AFF;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circle151 {
@@ -178,6 +178,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #FF9500;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circlej14 {
@@ -190,6 +191,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #4C9F5A;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circle6x {
@@ -202,6 +204,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #D88A8A;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circle4 {
@@ -214,6 +217,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #979797;
+  box-shadow:0 3px 3px 0 grey;
 }
 
 .circle20 {
@@ -226,6 +230,7 @@ p {
   line-height: 50px;
   text-align: center;
   background: #979797;
+  box-shadow:0 3px 3px 0 grey;
 }
 .arrow{
     display: inline;
