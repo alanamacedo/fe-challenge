@@ -17,6 +17,7 @@ html, body {
 
 div {
     display: block;
+    position: relative;
 }
 
 
@@ -41,18 +42,22 @@ input{
   width: 95%;
   background-color: #866CD1;
   height: 36px;
+  border: none;
 }
 
 .search{
   position: absolute;
-  left: auto;
-  padding-top:18px;
-  padding-left: 15px;
+  left: 16px;
+  padding-top: 20px;
+
+
 }
 
 .dictation{
   position:absolute;
   padding-top:18px;
+  right: 20px;
+
 }
 .dollar-bills{
   float: right;
