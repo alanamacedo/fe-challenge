@@ -43,21 +43,26 @@ input{
   background-color: #866CD1;
   height: 36px;
   border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  color: white;
+
 }
 
 .search{
   position: absolute;
   left: 16px;
   padding-top: 20px;
-
-
 }
 
 .dictation{
   position:absolute;
   padding-top:18px;
   right: 20px;
+}
 
+.search-bar{
+  clear: both;
 }
 .dollar-bills{
   float: right;
