@@ -19,7 +19,8 @@ div {
     display: block;
 }
 
-.iOS{
+
+.screen{
   width: 375px;
   height:667px;
   display: block;
@@ -32,15 +33,27 @@ div {
   height: 110px;
 }
 
-.status-bar{
-  padding-left: 4px;
+
+
+input{
+  margin-top: 10px;
+  margin-left: 8px;
+  width: 95%;
+  background-color: #866CD1;
+  height: 36px;
 }
 
-.search-bar{
-  padding-top: 10px;
-  padding-left: 6px;
+.search{
+  position: absolute;
+  left: auto;
+  padding-top:18px;
+  padding-left: 15px;
 }
 
+.dictation{
+  position:absolute;
+  padding-top:18px;
+}
 .dollar-bills{
   float: right;
   padding-right: 6px;
@@ -65,7 +78,6 @@ div {
   background-color: #866CD1;
   opacity: 50%;
   padding: 10px;
-  height: 100%;
 
 }
 
