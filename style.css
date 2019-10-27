@@ -20,7 +20,6 @@ div {
     position: relative;
 }
 
-
 .screen{
   width: 375px;
   height:667px;
@@ -33,8 +32,6 @@ div {
   padding-left: 2px;
   height: 110px;
 }
-
-
 
 input{
   margin-top: 10px;
@@ -82,12 +79,18 @@ input{
   padding-bottom: 15px;
 }
 
+.map {
+  display: block;
+  height: 213px;
+}
+
 .bus-stop{
   font-size: 18px;
   color: white;
   background-color: #866CD1;
   opacity: 50%;
   padding: 10px;
+  margin-top: -5px;
 
 }
 
@@ -162,7 +165,6 @@ p {
     flex-flow: row;
     min-height: 68px;
 }
-
 
 .circle64 {
   width: 50px;
@@ -267,6 +269,8 @@ p {
     border-bottom-width: none;
     border-bottom-color: #000000;
     border-bottom-style: solid;
+
+
 
 }
 
